@@ -1,0 +1,5 @@
+__pycache__
+.ipynb_checkpoints
+tweets.csv
+tweets.json
+tweets.db
