@@ -3,7 +3,7 @@
 ### 数据采集
 推特官方提供的API可以让我们获取到所需的数据。  
 为此，我们需要推特账号去创建一个app以获得keys和sccess tokens。然后通过Python里的Tweepy包来和API交互。在CSDN或一些技术博客里可以找到关于这方面的内容。  
-在即时任务中可以通过Stream API获取twitter流数据，因为是及时获取的数据，实际速率取决于设置关键词的数量和热门程度，一般不会超出限制。常规任务中可以通过Search API获取twitter历史数据，不过只能够下载当前时间以前的7天的数据，且存在速率限制。两者在Collecting Tweets with Tweepy中有相关的实现。  
+在即时任务中可以通过Stream API获取twitter流数据，因为是及时获取的数据，实际速率取决于设置关键词的数量和热门程度，一般不会超出限制。常规任务中可以通过Search API获取twitter历史数据，不过只能够下载当前时间以前的7天的数据，且存在速率限制。两者在[Collecting Tweets with Tweepy](https://github.com/Observer-L/Mining-Twitter-Data-with-Python/tree/master/Collecting%20Tweets%20with%20Tweepy)中有相关的实现。  
 Btw，在Github上可以找到一些名人推特的数据集，例如[特朗普的推特数据集](https://github.com/bpb27/trump_tweet_data_archive)。
 
 ### 特朗普的推特文本挖掘
